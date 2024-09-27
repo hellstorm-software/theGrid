@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.querySelector(".preloader").style.display = "none";
         document.querySelector(".main-content").style.display = "block";
-    }, 500); // Adjust the timeout duration as needed
+    }, 2100); // Adjust the timeout duration as needed
 
     function updateTime() {
         const now = new Date();
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('current-time').textContent = formattedTime;
     }
 
-    setInterval(updateTime, 1000);
+    setInterval(updateTime, 45);
     updateTime();
 
     document.addEventListener('mousemove', function(event) {
