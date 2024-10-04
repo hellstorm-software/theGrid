@@ -55,6 +55,7 @@ main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+	x-overflow: hidden;
 }
 
 .game-header {
@@ -548,6 +549,7 @@ footer {
     height: 100vh;
     background-color: #0d0d0d;
     position: relative;
+	x-overflow: hidden;
 }
 
 .scrolling-text-container {
@@ -579,6 +581,7 @@ footer {
     display: none;
     text-align: center;
     margin-top: 50px;
+	x-overflow: hidden;
 }
 
 .info-bar {
@@ -902,9 +905,27 @@ footer {
 	line-height: 20px;
 }
 
+#termClose {
+  position: fixed;
+  width: 1.5%;
+  padding: .1%;
+  margin-left: 25%;
+  margin-top: -27px;
+  border: 1px solid #5100ff;
+}
+
+#termOpen {
+  position: fixed;
+  width: 1.5%;
+  padding: .1%;
+  margin-left: 25%;
+  margin-top: -27px;
+  border: 1px solid #5100ff;
+}
+
 #terminal {
-  width: 300px;
-  height: 300px;
+  width: 16%;
+  height: 32%;
   margin-left: .25%;
   border: 1px solid #5100ff;
   color: green;
@@ -934,15 +955,15 @@ footer {
 }
 
 #input {
-  width: 300px;
-  margin-left: 5px;
+  width: 16%;
+  margin-left: .3%;
   position: absolute;
   border: none;
   background-color: black;
   border: 1px solid #5100ff;
   color: green;
   font-family: monospace;
-  margin-top: 14.6%;
+  margin-top: 280px;
   min-height: 20px; 
   position: fixed;
   z-index: 1;
@@ -1052,3 +1073,28 @@ footer {
   margin: 0;
   padding: 0;
 }
+
+    .button-like {
+        background-color: black;
+        color: #666;
+        margin-left: 14.4%;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid #666;
+        display: inline-block;
+        width: 50px;
+        border-radius: 5px;
+        user-select: none;
+    }
+
+    /* Change appearance on hover */
+    .button-like:hover {
+        background-color: #333;
+        color: white;
+    }
+
+    /* Add focus styles for keyboard accessibility */
+    .button-like:focus {
+        outline: 2px solid red;
+    }
