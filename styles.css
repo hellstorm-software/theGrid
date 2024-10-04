@@ -1107,6 +1107,8 @@ footer {
     height: 100%;
     overflow: hidden;
     z-index: -1;
+	overflow: hidden;
+	
 }
 
 .BgContainer video {
