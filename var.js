@@ -2,17 +2,13 @@
 const helpResponse = `
 	<span style="color: #a6ddff;">
 		<u>Commands:</u> <br>
-		>> login -- begin the game<br>
 		>> discord -- link to the official discord<br>
-		>> user-lookup.[username] -- pull up a user profile<br>
 		>> clear -- clear the console<br>
 		>> whoami -- check your login<br>
 		>> hackmud -- hackmud info<br>
-		>> register -- begin the game<br>
 		>> matrix.on / matrix.off -- enable/disable matrix text over chat box<br>
 		>> kyphxr.console -- switch to the console kyphxr uses in his vidoes<br>
 		>> main.console -- switch to the main biohack console<br>
-		>> OSINT.[username] -- return a data scrape of a target
 	</span>
 `;
 

@@ -72,9 +72,9 @@ async function handleCommand(command) {
     case "discord":
       return '<a class="discord-text" href="https://discord.gg/ykmdtZhSN3" target="_blank">https://discord.gg/ykmdtZhSN3</a>';
     case "kyphxr.console":
-      return '<a class="discord-text" href="./kyphxrKonsole.html">switch consoles</a>';
+      return '<a class="discord-text" href="./kyphxrKonsole.html">switch consoles</a><br>';
     case "main.console":
-      return '<a class="discord-text" href="./index.html">switch consoles</a>';
+      return '<a class="discord-text" href="./index.html">switch consoles</a><br>';
     case "user.create":
       storedUsername = args.join(' ');
       return `User created with username: ${storedUsername}. Type 'login' to begin. Type 'help' for assistance.`;

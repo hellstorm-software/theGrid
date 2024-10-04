@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     border-bottom: 2px solid #555;
     align-items: center;
+	x-overflow: hidden;
 }
 
 h4 {
@@ -906,6 +907,7 @@ footer {
   height: 300px;
   margin-left: .25%;
   border: 1px solid #5100ff;
+  color: green;
   overflow-y: scroll;
   position: fixed;
   z-index: 1;
