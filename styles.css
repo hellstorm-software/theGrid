@@ -900,3 +900,153 @@ footer {
     white-space: pre;
 	line-height: 20px;
 }
+
+#terminal {
+  width: 300px;
+  height: 300px;
+  margin-left: .25%;
+  border: 1px solid #5100ff;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 1;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #fe5746 black; /* Firefox */
+}
+
+/* For WebKit browsers (Chrome, Safari, newer Edge) */
+#terminal::-webkit-scrollbar {
+  width: 12px; /* Adjust the width of the scrollbar */
+}
+
+#terminal::-webkit-scrollbar-track {
+  background: black; /* Background color of the track */
+}
+
+#terminal::-webkit-scrollbar-thumb {
+  background: #fe5746; /* Color of the scroll thumb (the part you drag) */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+#terminal::-webkit-scrollbar-thumb:hover {
+  background: darkred; /* Darker color when hovering over the thumb */
+}
+
+#input {
+  width: 300px;
+  margin-left: 5px;
+  position: absolute;
+  border: none;
+  background-color: black;
+  border: 1px solid #5100ff;
+  color: green;
+  font-family: monospace;
+  margin-top: 14.6%;
+  min-height: 20px; 
+  position: fixed;
+  z-index: 1;
+}
+
+.orange-text {
+  color: #d96c23;
+}
+
+.lYellow-text {
+  color: #f2ec94;
+}
+
+.baba-text {
+	color: #bababa;
+}
+
+.red-text {
+  color: #8a1e56;
+}
+
+.discord-text {
+	color: #5e4dff;
+}
+
+.violet-text {
+	color: #8500eb;
+}
+
+.username-text {
+	color: #00c8d6;
+}
+
+.create-text {
+	color: #bd00d6;
+}
+
+.yellow-text {
+	color: #d4c600;
+}
+
+.blue-code-text {
+	color: #0091ff;
+}
+
+.matrix-textc {
+	color: #d6cb51;
+}
+
+.ky-text {
+	color: #fe5746;
+}
+
+.console-text {
+	color: #5180d6;
+}
+
+.mud-text {
+	color: #a6ddff;
+}
+
+.ti-text {
+	color: #70ffba;
+}
+
+.green-text {
+	color: green;
+}
+
+.room-text {
+	color: #8500eb;
+}
+
+.code-green {
+	color: #04ff00;
+}
+
+.script-text {
+	color: #d4c600;
+}
+
+.create-text {
+	color: #bd00d6;
+}
+
+.username-text {
+	color: #00c8d6;
+}
+
+.matrix-text {
+	color: #b603fc;
+}
+
+.anomevo-text {
+	color: #fcb603;
+}
+
+.red-text2 {
+	color: #fc0303;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+}

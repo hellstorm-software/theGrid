@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.querySelector(".preloader").style.display = "none";
         document.querySelector(".main-content").style.display = "block";
-    }, 2100); // Adjust the timeout duration as needed
+    }, 21); // Adjust the timeout duration as needed
 
     function updateTime() {
         const now = new Date();
