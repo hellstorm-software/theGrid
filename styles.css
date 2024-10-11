@@ -1122,3 +1122,12 @@ footer {
     transform: translate(-50%, -50%); /* Center the video */
     z-index: 0; /* Ensure video is behind content */
 }
+
+.menuTitle a {
+  text-decoration: none; 
+  color: #c7d5e0;
+}
+
+.menuTitle a:hover {
+  text-decoration: underline;
+}
