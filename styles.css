@@ -1131,3 +1131,8 @@ footer {
 .menuTitle a:hover {
   text-decoration: underline;
 }
+
+.standardBox {
+	border: 2px solid #a1a1a1;
+	text-align: center;
+}
