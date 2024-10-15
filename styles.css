@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     background-color: #0d0d0d;
     color: #c7d5e0;
 	x-overflow: hidden;
@@ -48,11 +48,11 @@ h4 {
 
 .nav-menu a:hover {
     background: #2a475e;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 main {
-    padding: 21px;
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 	x-overflow: hidden;
@@ -82,7 +82,7 @@ main {
 }
 
 .game-price button {
-    padding: 11px 20px;
+    padding: 10px 20px;
     color: #fff;
     background: #5c7e10;
     border: none;
