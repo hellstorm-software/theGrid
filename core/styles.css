@@ -1066,21 +1066,42 @@ footer {
 
   .containerCO {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
   .boxCO {
     flex: 1;
-    height: 200px;
+    height: 400px;
   }
   .box1CO {
     background-color: white;
-	width: 25%;
+    flex: 0 0 25%;
   }
   .box2CO {
     background-color: #4000ff;
-	width: 25%;
+    flex: 0 0 25%;
   }
+  
   .box3CO {
     background-color: black;
-	width: 50%;
+    flex: 0 0 50%;
+  }
+  
+  .box4CO {
+	background-color: #ff002f;
+    flex: 0 0 25%;
+  }
+  
+  .box5CO {
+    background-color: #4000ff;
+    flex: 0 0 50%;
+  }
+  
+  .box6CO {
+    background-color: black;
+    flex: 0 0 25%;
+  }
+  .box7CO {
+    background-color: white;
+    flex: 0 0 50%;
   }
