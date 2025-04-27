@@ -1063,3 +1063,24 @@ footer {
     line-height: 35px;
   }
 }
+
+  .containerCO {
+    display: flex;
+    width: 100%;
+  }
+  .boxCO {
+    flex: 1;
+    height: 200px;
+  }
+  .box1CO {
+    background-color: white;
+	width: 25%;
+  }
+  .box2CO {
+    background-color: #4000ff;
+	width: 25%;
+  }
+  .box3CO {
+    background-color: black;
+	width: 50%;
+  }
