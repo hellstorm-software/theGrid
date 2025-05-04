@@ -1138,7 +1138,8 @@ footer {
 }
 
 .milestone-left {
-  width: 30%;
+  width: 45%;
+  
 }
 
 .milestone-left h3 {
@@ -1152,7 +1153,7 @@ footer {
 }
 
 .milestone-check {
-  width: 5%;
+  width: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1164,7 +1165,7 @@ footer {
 }
 
 .milestone-right {
-  width: 65%;
+  width: 45%;
 }
 
 .milestone-right ul {
