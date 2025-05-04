@@ -1221,3 +1221,47 @@ footer {
   z-index: 1;
   border: 2px solid #8a8a8a;
 }
+
+.minimilestone-check {
+  width: 100px; /* adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.minimilestone-check::before,
+.minimilestone-check::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 200px; /* absurdly large so it stretches; it's clipped automatically */
+  height: 2px;
+  background: #ccc;
+  z-index: 0;
+}
+
+.minimilestone-right {
+  width: 35%;
+}
+
+.minimilestone-right ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  color: #666;
+}
+
+.minimilestone-left {
+  width: 35%;
+}
+
+.minimilestone-left h3 {
+  font-size: .9rem;
+  margin-bottom: 0.2rem;
+}
+
+.minimilestone-left .date {
+  font-size: 0.9rem;
+  color: #666;
+}
