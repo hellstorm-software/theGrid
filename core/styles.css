@@ -1139,6 +1139,8 @@ footer {
 
 .milestone-left {
   width: 45%;
+  margin-left: -5%;
+  margin-right: 5.1%;
 }
 
 .milestone-left h3 {
@@ -1168,7 +1170,7 @@ footer {
 }
 
 .milestone-check {
-  width: 100px; /* adjust as needed */
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1180,7 +1182,7 @@ footer {
   content: "";
   position: absolute;
   top: 50%;
-  width: 500px; /* absurdly large so it stretches; it's clipped automatically */
+  width: 400px; 
   height: 2px;
   background: #ccc;
   z-index: 0;
@@ -1235,7 +1237,7 @@ footer {
   content: "";
   position: absolute;
   top: 50%;
-  width: 200px; /* absurdly large so it stretches; it's clipped automatically */
+  width: 200px;
   height: 2px;
   background: #ccc;
   z-index: 0;
