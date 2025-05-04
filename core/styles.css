@@ -1164,20 +1164,60 @@ footer {
   margin: 0;
   padding-left: 1.2rem;
   list-style-type: disc;
-  color: #444;
+  color: #666;
 }
 
 .milestone-check {
-  width: 40px;
+  width: 100px; /* adjust as needed */
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.milestone-check::before,
+.milestone-check::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 500px; /* absurdly large so it stretches; it's clipped automatically */
+  height: 2px;
+  background: #ccc;
+  z-index: 0;
 }
 
 .milestone-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #0f7522; /* green */
+  border-radius: 50%;
+  z-index: 1;
+  border: 2px solid #ccc;
+}
+
+.milestone-circle-open {
+  width: 40px;
+  height: 40px;
+  background-color: #0d0d0d; /* Black */
+  border-radius: 50%;
+  z-index: 1;
+  border: 2px solid #8a8a8a;
+}
+
+.minimilestone-circle {
   width: 20px;
   height: 20px;
-  background-color: #4caf50; /* Green */
+  background-color: #0f7522; /* green */
   border-radius: 50%;
-  display: inline-block;
+  z-index: 1;
+  border: 2px solid #ccc;
+}
+
+.minimilestone-circle-open {
+  width: 20px;
+  height: 20px;
+  background-color: #0d0d0d; /* Black */
+  border-radius: 50%;
+  z-index: 1;
+  border: 2px solid #8a8a8a;
 }
