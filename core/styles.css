@@ -1139,8 +1139,8 @@ footer {
 
 .milestone-left {
   width: 45%;
-  margin-left: -5%;
-  margin-right: 5.1%;
+  margin-left: -2%;
+  margin-right: 2.1%;
 }
 
 .milestone-left h3 {
@@ -1182,7 +1182,7 @@ footer {
   content: "";
   position: absolute;
   top: 50%;
-  width: 400px; 
+  width: 350px; 
   height: 2px;
   background: #ccc;
   z-index: 0;
