@@ -1139,7 +1139,6 @@ footer {
 
 .milestone-left {
   width: 45%;
-  
 }
 
 .milestone-left h3 {
@@ -1166,6 +1165,7 @@ footer {
 
 .milestone-right {
   width: 45%;
+  text-align: left;
 }
 
 .milestone-right ul {
