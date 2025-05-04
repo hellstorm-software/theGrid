@@ -1265,3 +1265,20 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+.roadmap-timeline {
+  position: relative;
+  padding: 0 50px; /* spacing so line doesn't interfere with text */
+}
+
+.roadmap-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 100%;
+  background-color: #666;
+  z-index: 0;
+}
