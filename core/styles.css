@@ -1109,3 +1109,67 @@ footer {
   .socialBox {
 	  margin-bottom: -7%;
   }
+  
+
+.roadmap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.phase {
+  margin-bottom: 3rem;
+}
+
+.phase h2 {
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.milestone {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.milestone-left {
+  width: 30%;
+}
+
+.milestone-left h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.milestone-left .date {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.milestone-check {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.milestone-check input[type="checkbox"] {
+  transform: scale(1.5);
+  cursor: default;
+}
+
+.milestone-right {
+  width: 65%;
+}
+
+.milestone-right ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  color: #444;
+}
