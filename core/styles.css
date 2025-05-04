@@ -1151,13 +1151,6 @@ footer {
   color: #666;
 }
 
-.milestone-check {
-  width: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .milestone-check input[type="checkbox"] {
   transform: scale(1.5);
   cursor: default;
@@ -1172,4 +1165,19 @@ footer {
   padding-left: 1.2rem;
   list-style-type: disc;
   color: #444;
+}
+
+.milestone-check {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.milestone-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #4caf50; /* Green */
+  border-radius: 50%;
+  display: inline-block;
 }
