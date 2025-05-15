@@ -1108,6 +1108,7 @@ footer {
   .box8CO {
     background-color: black;
     flex: 0 0 100%;
+	height: 700px;
   }
   .box9CO {
     background-color: #4000ff;
