@@ -1105,7 +1105,14 @@ footer {
     background-color: white;
     flex: 0 0 50%;
   }
-  
+  .box8CO {
+    background-color: black;
+    flex: 0 0 100%;
+  }
+  .box9CO {
+    background-color: #4000ff;
+    flex: 0 0 50%;
+  }
   .socialBox {
 	  margin-bottom: -7%;
   }
