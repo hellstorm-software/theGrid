@@ -1072,6 +1072,7 @@ footer {
   .boxCO {
     flex: 1;
     height: 400px;
+	z-index: 3;
   }
   .box1CO {
     background-color: white;
