@@ -1292,3 +1292,10 @@ footer {
   background-color: #666;
   z-index: 0;
 }
+
+.videoTV {
+	width: 461px; 
+	height: 260px; 
+	margin-left: 2%; 
+	margin-top: 20%;
+}
