@@ -11,7 +11,8 @@ body {
     line-height: 1.6;
     background-color: #0d0d0d;
     color: #c7d5e0;
-	x-overflow: hidden;
+	overflow-x: hidden;
+	background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/31be0604-4e5e-4c20-88ec-88a67eec6393/uploads/images/3a3194dfd19c92e522aa36a369f65562.png');
 }
 
 header {
@@ -1117,6 +1118,8 @@ footer {
   }
   .socialBox {
 	  margin-bottom: -7%;
+	  text-align: right;
+	  margin-right: 5px;
   }
   
 
