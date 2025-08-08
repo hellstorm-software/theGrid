@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const hours = now.getHours();
         const minutes = now.getMinutes();
         const period = hours >= 12 ? 'PM' : 'AM';
-        const formattedTime = `${hours % 12 || 12}:${minutes.toString().padStart(2, '0')} ${period}`;
-        document.getElementById('current-time').textContent = formattedTime;
+        const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+    document.getElementById('current-time').textContent = formattedTime;
     }
 
     setInterval(updateTime, 45);
@@ -22,4 +22,5 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('cursor-position').textContent = `${x} / ${y}`;
     });
 });
+
 
